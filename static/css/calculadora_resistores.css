@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* Preto */
+  color: #F5F5F5; /* Branco */
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #4CAF50; /* Verde claro */
+  text-align: center;
+}
+
+.resistor-form {
+  background-color: #2C2C2C; /* Cinza escuro */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #CCCCCC;
+  text-align: left;
+}
+
+select {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #121212;
+  color: #F5F5F5;
+  border: 1px solid #4CAF50;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+select:focus {
+  border-color: #66BB6A; /* Verde mais claro no foco */
+  background-color: #1D1D1D;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: #121212;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #388E3C; /* Verde escuro */
+}
+
+#resultado {
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: #2C2C2C;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  color: #A5D6A7; /* Verde clarinho */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}

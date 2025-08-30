@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora - Lei de Ohm</title>
+  <link rel="stylesheet" href="../static/css/calculadora_lei_ohm.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora - Lei de Ohm</h1>
+
+    <p class="explicacao">
+      A Lei de Ohm relaciona tensão (V), corrente (I) e resistência (R):<br/>
+      <strong>V = I × R</strong><br/>
+      A partir dela, podemos também derivar:<br/>
+      <strong>I = V ÷ R</strong> &nbsp;&nbsp;|&nbsp;&nbsp; <strong>R = V ÷ I</strong>
+    </p>
+
+    <div class="formulario">
+      <label for="calcular">Escolha o que deseja calcular:</label>
+      <select id="calcular" onchange="atualizarCampos()">
+        <option value="V">Tensão (V)</option>
+        <option value="I">Corrente (I)</option>
+        <option value="R">Resistência (R)</option>
+      </select>
+
+      <div id="inputs">
+        <!-- Campos de entrada dinâmicos aparecerão aqui -->
+      </div>
+
+      <button onclick="calcular()">Calcular</button>
+
+      <div id="resultado"></div>
+    </div>
+  </div>
+
+  <script src="../static/js/calculadora_lei_ohm.js"></script>
+</body>
+</html>

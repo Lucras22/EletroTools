@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Resistores</title>
+  <link rel="stylesheet" href="../static/css/calculadora_resistores.css">
+</head>
+<body>
+  <h1>Calculadora de Resistência de Resistores (4 bandas)</h1>
+
+  <div class="resistor-form">
+    <label>1ª Faixa:
+      <select id="band1"></select>
+    </label>
+
+    <label>2ª Faixa:
+      <select id="band2"></select>
+    </label>
+
+    <label>Multiplicador:
+      <select id="multiplier"></select>
+    </label>
+
+    <label>Tolerância:
+      <select id="tolerance"></select>
+    </label>
+
+    <button onclick="calcular()">Calcular</button>
+  </div>
+
+  <div id="resultado"></div>
+
+  <script src="../static/js/calculadora_resistores.js"></script>
+</body>
+</html>
