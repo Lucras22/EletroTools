@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Capacitores</title>
+  <link rel="stylesheet" href="../static/css/calculadora_capacitores.css">
+  <link rel="stylesheet" href="../static/css/back.css">
+</head>
+
+<body>
+  <header class="header">
+    <button class="btn-voltar" onclick="location.href='../index.html'">⬅ Voltar</button>
+  </header>
+  <div class="container">
+    <h1>Calculadora de Capacitores (Série / Paralelo)</h1>
+
+    <div class="form-group">
+      <label for="valores">Valores dos Capacitores (µF):</label>
+      <input type="text" id="valores" placeholder="Ex: 10, 22, 47">
+    </div>
+
+    <div class="form-group">
+      <label for="configuracao">Configuração:</label>
+      <select id="configuracao">
+        <option value="serie">Série</option>
+        <option value="paralelo">Paralelo</option>
+      </select>
+    </div>
+
+    <button onclick="calcularCapacitores()">Calcular</button>
+
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+
+  <script src="../static/js/calculadora_capacitores.js"></script>
+</body>
+
+</html>

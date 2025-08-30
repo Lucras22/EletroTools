@@ -1,0 +1,28 @@
+footer {
+  margin-top: 50px;
+  padding: 25px 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
+
+footer p {
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #A5D6A7;
+}
+
+footer .social-links {
+  margin-top: 10px;
+}

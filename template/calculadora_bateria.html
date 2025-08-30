@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Baterias</title>
+  <link rel="stylesheet" href="../static/css/calculadora_bateria.css">
+  <link rel="stylesheet" href="../static/css/back.css">
+</head>
+
+<body>
+  <header class="header">
+    <button class="btn-voltar" onclick="location.href='../index.html'">⬅ Voltar</button>
+  </header>
+
+
+  <div class="container">
+    <h1>Calculadora de Baterias (Série / Paralelo)</h1>
+
+    <div class="form-group">
+      <label for="numBaterias">Número de Baterias:</label>
+      <input type="number" id="numBaterias" min="1" value="2">
+    </div>
+
+    <div class="form-group">
+      <label for="tensaoIndividual">Tensão Individual (V):</label>
+      <input type="number" id="tensaoIndividual" step="0.1" value="12">
+    </div>
+
+    <div class="form-group">
+      <label for="capacidadeIndividual">Capacidade Individual (Ah):</label>
+      <input type="number" id="capacidadeIndividual" step="0.1" value="7">
+    </div>
+
+    <div class="form-group">
+      <label for="configuracao">Configuração:</label>
+      <select id="configuracao">
+        <option value="serie">Série</option>
+        <option value="paralelo">Paralelo</option>
+      </select>
+    </div>
+
+    <button onclick="calcularBateria()">Calcular</button>
+
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+
+  <script src="../static/js/calculadora_bateria.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.btn-voltar {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
