@@ -3,8 +3,6 @@
 Um sistema de **calculadoras elétricas e eletrônicas** feito para facilitar meu cotidiano em projetos e estudos de circuitos.  
 Sempre precisei recorrer à internet para cálculos básicos, então decidi centralizar tudo em um só lugar com interface simples e responsiva. 🚀
 
----
-
 ## ✨ Funcionalidades
 
 Atualmente, o projeto conta com as seguintes calculadoras:
@@ -16,6 +14,7 @@ Atualmente, o projeto conta com as seguintes calculadoras:
 - 🌀 **Lei de Ohm**
 - 🛠 **Resistência**
 - ⚙️ **Códigos de Resistores**
+- 🔋 **Capacitores em Série / Paralelo**
 
 Cada calculadora tem sua própria página, estilização e script JavaScript independente.
 
@@ -32,18 +31,3 @@ Cada calculadora tem sua própria página, estilização e script JavaScript ind
 └── style.css # Estilo global
 
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **HTML5**  
-- **CSS3**  
-- **JavaScript** (Vanilla)
-
----
-
-## 📌 Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Lucras22/EletroTools.git
